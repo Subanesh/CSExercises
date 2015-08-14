@@ -10,6 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Enter Double Precision Number");
+            double d = double.Parse(Console.ReadLine());
+            Console.WriteLine("Square Number:{0}", d*d);
             
         }
     }
