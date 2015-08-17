@@ -10,7 +10,15 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter Value X:");
+
+            int x = int.Parse(Console.ReadLine());
+
+            double y = (2 * Math.Pow(x, 2)) - (4 * (x)) + 3;
+
+            Console.WriteLine("Output:{0}", y);
+
+            Console.ReadLine();
         }
     }
 }
